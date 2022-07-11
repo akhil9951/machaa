@@ -1,0 +1,23 @@
+<%= image_tag friend.image if friend.image.attached? %>
+<div id="<%= dom_id friend %>">
+  <p>
+    <strong>First name:</strong>
+    <%= friend.first_name %>
+  </p>
+
+  <p>
+    <strong>Last name:</strong>
+    <%= friend.last_name %>
+  </p>
+
+  <p>
+    <strong>Email:</strong>
+    <%= friend.email %>
+  </p>
+
+  <p>
+    <strong>Phone no:</strong>
+    <%= friend.phone_no %>
+  </p>
+
+</div>
